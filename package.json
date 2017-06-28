@@ -1,0 +1,29 @@
+{
+  "name": "lifeguide-dashbord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaseliasson/lifeguide-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreaseliasson/lifeguide-dashboard/issues"
+  },
+  "homepage": "https://github.com/andreaseliasson/lifeguide-dashboard#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.9.1",
+    "express": "^4.15.3",
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "webpack": "^3.0.0"
+  }
+}
