@@ -5,7 +5,7 @@ export default class List extends Component {
     const {onClickItem} = this.props;
 
     return (
-      <div style={styles.item} onClick={() => onClickItem(i)}>
+      <div style={styles.item} onClick={() => onClickItem(i)} key={i}>
         {text}
       </div>
     );
